@@ -1,0 +1,33 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #FFB88C;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom, #FFB88C, #DE6262);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom, #FFB88C, #DE6262);
+    }
+  
+    .login-text{
+      color:#DE6262;
+    }
+    .btn-login{
+      background: #DE6262; 
+      color:#fff; 
+      font-weight:500;
+    }
+    .btn-login:hover{
+      color:white;
+    }
+    .py-4{
+      padding-top: 2.5rem!important;
+      padding-bottom: 2.5rem!important;
+    }
+    .card-body{
+      box-shadow: 10px 10px rgba(0,0,0,0.1);
+      border-radius: 10px ;
+    }
+    .label-text{
+     color: #DE6262;
+    }
